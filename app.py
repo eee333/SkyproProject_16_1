@@ -116,6 +116,9 @@ def fill_tables():
     db.session.commit()
 
 
+# fill_tables()
+
+
 @app.route('/users', methods=['GET', 'POST'])
 def get_users():
     if request.method == 'GET':
